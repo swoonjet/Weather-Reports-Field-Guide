@@ -13,6 +13,10 @@
   --shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+/* honour the native `hidden` attribute for any element */
+[hidden] { display: none !important; }
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #1e1e1e;

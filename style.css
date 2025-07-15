@@ -1,4 +1,4 @@
-/* style.css  —  core styling & theming
+/* style.css  —  core styling & theming (foolproof modal + layout)
 ================================================*/
 :root {
   --bg: #fafafa;
@@ -52,12 +52,17 @@ h1,h2,h3 { line-height: 1.2; }
   display: flex; align-items: center; justify-content: center;
   text-align: center;
   color: #fff;
+  position: relative;
+  z-index: 0;
 }
 .hero::after {
-  content: ''; position: absolute; inset: 0;
+  content: ''; 
+  position: absolute; 
+  inset: 0;
   background: rgba(0,0,0,0.45);
+  z-index: 1;
 }
-.hero__inner { position: relative; z-index: 1; }
+.hero__inner { position: relative; z-index: 2; }
 .hero__title { margin: 0 0 .5rem; font-size: clamp(1.75rem, 4vw, 3rem); }
 .hero__tagline { margin: 0; font-size: clamp(1rem, 2vw, 1.25rem); }
 
@@ -83,6 +88,8 @@ h1,h2,h3 { line-height: 1.2; }
   overflow-y: auto;
   position: sticky;
   top: var(--gap);
+  background: var(--card-bg);
+  z-index: 1;
 }
 .filters label { display: block; margin-bottom: .25rem; cursor: pointer; }
 .filters input[type="checkbox"] {
@@ -105,35 +112,75 @@ h1,h2,h3 { line-height: 1.2; }
   box-shadow: var(--shadow);
   display: flex; flex-direction: column;
   transition: transform 0.2s;
+  cursor: pointer;
+  z-index: 1;
 }
-.card:hover,
-.card:focus-within { transform: translateY(-4px); }
+.card:focus,
+.card:hover { transform: translateY(-4px); outline: 2px solid var(--accent); }
 .card__title { margin: 0 0 .5rem; font-weight: 600; }
 .card__excerpt { margin-top: auto; font-size: .875rem; color: var(--accent); }
 
 /* ▸ MODAL -------------------------------------------------------------*/
 .modal {
-  position: fixed; inset: 0;
-  display: flex; align-items: center; justify-content: center;
+  position: fixed; 
+  inset: 0;
+  display: none; /* hidden by default, shown via [hidden] attribute toggle */
+  align-items: center; 
+  justify-content: center;
   background: rgba(0,0,0,0.5);
   backdrop-filter: blur(2px);
-  z-index: 1000;
+  z-index: 2000;
+}
+.modal[hidden] {
+  display: none !important;
+}
+.modal:not([hidden]) {
+  display: flex;
 }
 .modal__content {
   position: relative;
-  z-index: 1001;
+  background: var(--modal-bg);
+  color: var(--text);
+  width: min(90vw, 700px);
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  outline: none;
+  font-family: 'Playfair Display', serif;
+  z-index: 2001;
+  min-height: 200px;
 }
 .modal__close {
-  z-index: 1002;
-  position: absolute; top: 1rem; right: 1rem;
+  z-index: 2002;
+  position: absolute; 
+  top: 1rem; right: 1rem;
   cursor: pointer;
-  background: transparent;
-  border: 0;
+  background: #fff;
+  border: 2px solid var(--accent);
   color: var(--accent);
   font-size: 1.5rem; line-height: 1;
+  padding: 0.2em 0.5em;
+  border-radius: 50%;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.modal__close:hover, .modal__close:focus {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
 }
 .story__title { margin-top: 0; }
-.story__body { white-space: pre-wrap; }
+.story__body { white-space: pre-wrap; font-size: 1.05em; }
 
 /* Transitions ---------------------------------------------------------*/
 [data-hidden="true"] { display: none !important; }
+
+/* Accessibility: force pointer events only when visible */
+.modal[hidden] { pointer-events: none; }
+.modal:not([hidden]) { pointer-events: auto; }
+
+/* Make sure everything else is below modal */
+body, .main, .hero, .filters, .grid, .card {
+  z-index: 0;
+}

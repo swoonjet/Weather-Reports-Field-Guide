@@ -119,6 +119,7 @@ h1,h2,h3 { line-height: 1.2; }
   backdrop-filter: blur(2px);
 }
 .modal__content {
+  position: relative; /* ADD THIS LINE */
   background: var(--modal-bg);
   color: var(--text);
   width: min(90vw, 700px);

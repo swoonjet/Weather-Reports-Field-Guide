@@ -4,6 +4,8 @@
 /* ---------------------- SPECIMEN DATA -------------------------------
 Add up to 40 objects. Include new tags as needed; UI builds dynamically.
 */
+document.getElementById('storyModal').hidden = true;
+
 const specimens = [
   {
     id: 1,

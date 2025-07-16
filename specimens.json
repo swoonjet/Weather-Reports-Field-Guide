@@ -1,1 +1,55 @@
+[
+  {
+    "id": 1,
+    "slug": "not-crazy",
+    "title": "I’m Not Crazy",
+    "excerpt": "I’m a scientist. Weather is science. I’m not crazy…",
+    "tags": [
+      "retrofitting-frameworks",
+      "certainty-simulation",
+      "social-proof-validation",
+      "trauma-projection",
+      "sensory-distortion"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "charlie-and-trevor",
+    "title": "Charlie and Trevor",
+    "excerpt": "Before I met Trevor, I was taught to smell his panic…",
+    "tags": [
+      "emotional-contagion",
+      "isolation-vs-gathering",
+      "sensory-distortion",
+      "ritual-creation",
+      "trauma-projection"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "archaeologist-journal",
+    "title": "The Archaeologist’s Field Journal",
+    "excerpt": "Didn’t have time to write anything yesterday…",
+    "tags": [
+      "cultural-interpretation",
+      "mythology-building",
+      "collective-storytelling",
+      "social-proof-validation",
+      "sensory-distortion"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "backflash",
+    "title": "Backflash",
+    "excerpt": "Tremors shoot through my hands; the rotor blades womp-womp overhead…",
+    "tags": [
+      "conspiracy-creation",
+      "memory-reconstruction",
+      "prediction-obsession",
+      "certainty-simulation",
+      "sensory-distortion"
+    ]
+  }
+]
 

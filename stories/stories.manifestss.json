@@ -1,0 +1,324 @@
+[
+  {
+    "slug": "jake",
+    "title": "Jake",
+    "author": "A.P. Murphy",
+    "role": "reported by",
+    "html": "stories/jake.html"
+  },
+  {
+    "slug": "shifu-david-rosner",
+    "title": "Shifu David Rosner",
+    "author": "Alex Shifman",
+    "role": "reported by",
+    "html": "stories/shifu-david-rosner.html"
+  },
+  {
+    "slug": "the-archeologist",
+    "title": "The Archeologist",
+    "author": "Aristotle Evangelos",
+    "role": "reported by",
+    "html": "stories/archeologist.html"
+  },
+  {
+    "slug": "the-ranger",
+    "title": "The Ranger",
+    "author": "Brennen Costa",
+    "role": "reported by",
+    "html": "stories/ranger.html"
+  },
+  {
+    "slug": "elaine",
+    "title": "Elaine",
+    "author": "Caitriana NicNeacail",
+    "role": "reported by",
+    "html": "stories/elaine.html"
+  },
+  {
+    "slug": "the-we",
+    "title": "The We",
+    "author": "ConJurD",
+    "role": "reported by",
+    "html": "stories/we.html"
+  },
+  {
+    "slug": "gabriel",
+    "title": "Gabriel",
+    "author": "Daniel O'Donnell",
+    "role": "reported by",
+    "html": "stories/gabriel.html"
+  },
+  {
+    "slug": "james-earl-stockton",
+    "title": "James Earl Stockton",
+    "author": "Drew Valdez",
+    "role": "reported by",
+    "html": "stories/james-earl-stockton.html"
+  },
+  {
+    "slug": "elizabeth",
+    "title": "Elizabeth",
+    "author": "E.B. Howard",
+    "role": "reported by",
+    "html": "stories/elizabeth.html"
+  },
+  {
+    "slug": "mayor-percy-thorne-sackett",
+    "title": "Mayor Percy Thorne Sackett",
+    "author": "E.J. Trask",
+    "role": "reported by",
+    "html": "stories/mayor-percy-thorne-sackett.html"
+  },
+  {
+    "slug": "zanna",
+    "title": "Zanna",
+    "author": "Frances Hahn",
+    "role": "reported by",
+    "html": "stories/zanna.html"
+  },
+  {
+    "slug": "jenny-darke",
+    "title": "Jenny Darke",
+    "author": "Garen Marie",
+    "role": "reported by",
+    "html": "stories/jenny-darke.html"
+  },
+  {
+    "slug": "randal",
+    "title": "Randal",
+    "author": "Hamish Kavanagh",
+    "role": "reported by",
+    "html": "stories/randal.html"
+  },
+  {
+    "slug": "tabby",
+    "title": "Tabby",
+    "author": "Honeygloom",
+    "role": "reported by",
+    "html": "stories/tabby.html"
+  },
+  {
+    "slug": "the-hymenopterist",
+    "title": "The Hymenopterist",
+    "author": "J. Kyle Turner",
+    "role": "reported by",
+    "html": "stories/hymenopterist.html"
+  },
+  {
+    "slug": "hare",
+    "title": "Hare",
+    "author": "James Worth",
+    "role": "reported by",
+    "html": "stories/hare.html"
+  },
+  {
+    "slug": "luca",
+    "title": "Luca",
+    "author": "Jamie Dibs",
+    "role": "reported by",
+    "html": "stories/luca.html"
+  },
+  {
+    "slug": "old-tom",
+    "title": "Old Tom",
+    "author": "Jay Oatley",
+    "role": "reported by",
+    "html": "stories/old-tom.html"
+  },
+  {
+    "slug": "jenkins",
+    "title": "Jenkins",
+    "author": "Jessica Maison",
+    "role": "reported by",
+    "html": "stories/jenkins.html"
+  },
+  {
+    "slug": "mister-president",
+    "title": "Mister President",
+    "author": "JLG Noga",
+    "role": "reported by",
+    "html": "stories/president.html"
+  },
+  {
+    "slug": "the-friend",
+    "title": "The Friend",
+    "author": "Jon T",
+    "role": "reported by",
+    "html": "stories/friend.html"
+  },
+  {
+    "slug": "charles-trevor",
+    "title": "Charles & Trevor",
+    "author": "Keith Long",
+    "role": "reported by",
+    "html": "stories/charles-trevor.html"
+  },
+  {
+    "slug": "mr-vasquez",
+    "title": "Mr. Vasquez",
+    "author": "L.L. Ford",
+    "role": "reported by",
+    "html": "stories/mr-vasquez.html"
+  },
+  {
+    "slug": "tom-bergstrom",
+    "title": "Tom Bergstrom",
+    "author": "L.R. Scott",
+    "role": "reported by",
+    "html": "stories/thom-bergstrom.html"
+  },
+  {
+    "slug": "birdie",
+    "title": "Birdie",
+    "author": "M.E. Beckley",
+    "role": "reported by",
+    "html": "stories/birdie.html"
+  },
+  {
+    "slug": "james-o",
+    "title": "James O",
+    "author": "M.P. Fitzgerald",
+    "role": "reported by",
+    "html": "stories/james-o.html"
+  },
+  {
+    "slug": "the-mad-scientist",
+    "title": "The Mad Scientist",
+    "author": "Michael Atkinson",
+    "role": "reported by",
+    "html": "stories/mad-scientist.html"
+  },
+  {
+    "slug": "emilio",
+    "title": "Emilio",
+    "author": "Michael B. Morgan",
+    "role": "reported by",
+    "html": "stories/emilio.html"
+  },
+  {
+    "slug": "duke-benny",
+    "title": "Duke Benny",
+    "author": "Mike Duffy",
+    "role": "reported by",
+    "html": "stories/duke-benny.html"
+  },
+  {
+    "slug": "weather-reports-theme",
+    "title": "Weather Reports Theme",
+    "author": "Minor Fossil",
+    "role": "reported by",
+    "html": "stories/weather-reports-theme.html"
+  },
+  {
+    "slug": "ygor",
+    "title": "yGOR",
+    "author": "miter",
+    "role": "reported by",
+    "html": "stories/ygor.html"
+  },
+  {
+    "slug": "the-widower",
+    "title": "The Widower",
+    "author": "NIck Winney",
+    "role": "reported by",
+    "html": "stories/widower.html"
+  },
+  {
+    "slug": "sora",
+    "title": "Sora",
+    "author": "Olivia McNeilis",
+    "role": "reported by",
+    "html": "stories/sora.html"
+  },
+  {
+    "slug": "george-ferris",
+    "title": "George Ferris",
+    "author": "S.L. Linton",
+    "role": "reported by",
+    "html": "stories/george-ferris.html"
+  },
+  {
+    "slug": "alex-houston",
+    "title": "Alex Houston",
+    "author": "S.M. Osborne",
+    "role": "reported by",
+    "html": "stories/alex-houston.html"
+  },
+  {
+    "slug": "elliott",
+    "title": "Elliott",
+    "author": "Sam Reid",
+    "role": "reported by",
+    "html": "stories/elliott.html"
+  },
+  {
+    "slug": "walter",
+    "title": "Walter",
+    "author": "Sandolore Sykes",
+    "role": "reported by",
+    "html": "stories/walter.html"
+  },
+  {
+    "slug": "john-bull",
+    "title": "John Bull",
+    "author": "Sean Thomas McDonnell",
+    "role": "reported by",
+    "html": "stories/john-bull.html"
+  },
+  {
+    "slug": "lightning-immaculate",
+    "title": "Lightning Immaculate",
+    "author": "Andy Futuro",
+    "role": "reported by",
+    "html": "stories/lightning-immaculate.html"
+  },
+  {
+    "slug": "the-shipbuilder",
+    "title": "The Shipbuilder",
+    "author": "Shane Bzdok",
+    "role": "reported by",
+    "html": "stories/shipbuilder.html"
+  },
+  {
+    "slug": "winston-ford",
+    "title": "Winston Ford",
+    "author": "Spencer D.W.",
+    "role": "reported by",
+    "html": "stories/winston-ford.html"
+  },
+  {
+    "slug": "kaldi",
+    "title": "Kaldi",
+    "author": "Stephen Rozo",
+    "role": "reported by",
+    "html": "stories/kaldi.html"
+  },
+  {
+    "slug": "purge",
+    "title": "Purge",
+    "author": "Wildflower",
+    "role": "reported by",
+    "html": "stories/purge.html"
+  },
+  {
+    "slug": "dolores",
+    "title": "Dolores",
+    "author": "Will Boucher",
+    "role": "reported by",
+    "html": "stories/dolores.html"
+  },
+  {
+    "slug": "sybil",
+    "title": "Sybil",
+    "author": "Zani D",
+    "role": "reported by",
+    "html": "stories/sybill.html"
+  },
+  {
+    "slug": "bird-mother",
+    "title": "Bird Mother",
+    "author": "Zivah Avraham",
+    "role": "reported by",
+    "html": "stories/bird-mother.html"
+  }
+]

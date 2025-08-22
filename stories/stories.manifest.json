@@ -1,0 +1,511 @@
+[
+  {
+    "slug": "jake",
+    "title": "Jake",
+    "author": "A.P. Murphy",
+    "role": "reported by",
+    "html": "stories/jake.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "shifu-david-rosner",
+    "title": "Shifu David Rosner",
+    "author": "Alex Shifman",
+    "role": "reported by",
+    "html": "stories/shifu-david-rosner.html",
+    "tags": [
+      "Fear versus wonder hierarchies",
+      "Hope projection patterns",
+      "Retrofitting familiar frameworks"
+    ]
+  },
+  {
+    "slug": "the-archeologist",
+    "title": "The Archeologist",
+    "author": "Aristotle Evangelos",
+    "role": "reported by",
+    "html": "stories/archeologist.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "the-ranger",
+    "title": "The Ranger",
+    "author": "Brennen Costa",
+    "role": "reported by",
+    "html": "stories/ranger.html",
+    "tags": [
+      "Mythology-building responses",
+      "Pattern seeking creation",
+      "Documentation obsession"
+    ]
+  },
+  {
+    "slug": "elaine",
+    "title": "Elaine",
+    "author": "Caitriana NicNeacail",
+    "role": "reported by",
+    "html": "stories/elaine.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "the-we",
+    "title": "The We",
+    "author": "ConJurD",
+    "role": "reported by",
+    "html": "stories/we.html",
+    "tags": [
+      "Future prediction attempts",
+      "Collective storytelling",
+      "Mythology-building responses"
+    ]
+  },
+  {
+    "slug": "gabriel",
+    "title": "Gabriel",
+    "author": "Daniel O'Donnell",
+    "role": "reported by",
+    "html": "stories/gabriel.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "james-earl-stockton",
+    "title": "James Earl Stockton",
+    "author": "Drew Valdez",
+    "role": "reported by",
+    "html": "stories/james-earl-stockton.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "elizabeth",
+    "title": "Elizabeth",
+    "author": "E.B. Howard",
+    "role": "reported by",
+    "html": "stories/elizabeth.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "mayor-percy-thorne-sackett",
+    "title": "Mayor Percy Thorne Sackett",
+    "author": "E.J. Trask",
+    "role": "reported by",
+    "html": "stories/mayor-percy-thorne-sackett.html",
+    "tags": [
+      "Weather anthropomorphization",
+      "Fear versus wonder hierarchies",
+      "Assigning agency to randomness"
+    ]
+  },
+  {
+    "slug": "zanna",
+    "title": "Zanna",
+    "author": "Frances Hahn",
+    "role": "reported by",
+    "html": "stories/zanna.html",
+    "tags": [
+      "Hope projection patterns",
+      "Individual versus collective response"
+    ]
+  },
+  {
+    "slug": "jenny-darke",
+    "title": "Jenny Darke",
+    "author": "Garen Marie",
+    "role": "reported by",
+    "html": "stories/jenny-darke.html",
+    "tags": [
+      "Collective storytelling",
+      "Documentation obsession",
+      "Storytelling as meaning-making"
+    ]
+  },
+  {
+    "slug": "randal",
+    "title": "Randal",
+    "author": "Hamish Kavanagh",
+    "role": "reported by",
+    "html": "stories/randal.html",
+    "tags": [
+      "Mythology-building responses",
+      "Documentation obsession",
+      "Future prediction attempts"
+    ]
+  },
+  {
+    "slug": "tabby",
+    "title": "Tabby",
+    "author": "Honeygloom",
+    "role": "reported by",
+    "html": "stories/tabby.html",
+    "tags": [
+      "Uncertainty cognition studies",
+      "Social proof validation",
+      "Anthropomorphization tendency"
+    ]
+  },
+  {
+    "slug": "the-hymenopterist",
+    "title": "The Hymenopterist",
+    "author": "J. Kyle Turner",
+    "role": "reported by",
+    "html": "stories/hymenopterist.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "hare",
+    "title": "Hare",
+    "author": "James Worth",
+    "role": "reported by",
+    "html": "stories/hare.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "luca",
+    "title": "Luca",
+    "author": "Jamie Dibs",
+    "role": "reported by",
+    "html": "stories/luca.html",
+    "tags": [
+      "Pattern seeking creation",
+      "Authority figure seeking",
+      "Documentation obsession"
+    ]
+  },
+  {
+    "slug": "old-tom",
+    "title": "Old Tom",
+    "author": "Jay Oatley",
+    "role": "reported by",
+    "html": "stories/old-tom.html",
+    "tags": [
+      "Authority figure seeking",
+      "Social proof validation",
+      "Hope projection patterns"
+    ]
+  },
+  {
+    "slug": "jenkins",
+    "title": "Jenkins",
+    "author": "Jessica Maison",
+    "role": "reported by",
+    "html": "stories/jenkins.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "mister-president",
+    "title": "Mister President",
+    "author": "JLG Noga",
+    "role": "reported by",
+    "html": "stories/president.html",
+    "tags": [
+      "Cultural interpretation variables",
+      "Pattern seeking creation",
+      "Assigning agency to randomness"
+    ]
+  },
+  {
+    "slug": "the-friend",
+    "title": "The Friend",
+    "author": "Jon T",
+    "role": "reported by",
+    "html": "stories/friend.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "charles-trevor",
+    "title": "Charles & Trevor",
+    "author": "Keith Long",
+    "role": "reported by",
+    "html": "stories/charles-trevor.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "mr-vasquez",
+    "title": "Mr. Vasquez",
+    "author": "L.L. Ford",
+    "role": "reported by",
+    "html": "stories/mr-vasquez.html",
+    "tags": [
+      "Mythology-building responses",
+      "Documentation obsession",
+      "Humor as dread defense"
+    ]
+  },
+  {
+    "slug": "tom-bergstrom",
+    "title": "Tom Bergstrom",
+    "author": "L.R. Scott",
+    "role": "reported by",
+    "html": "stories/thom-bergstrom.html",
+    "tags": [
+      "Social proof validation",
+      "Memory reconstruction",
+      "Pattern seeking creation"
+    ]
+  },
+  {
+    "slug": "birdie",
+    "title": "Birdie",
+    "author": "M.E. Beckley",
+    "role": "reported by",
+    "html": "stories/birdie.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "james-o",
+    "title": "James O",
+    "author": "M.P. Fitzgerald",
+    "role": "reported by",
+    "html": "stories/james-o.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "the-mad-scientist",
+    "title": "The Mad Scientist",
+    "author": "Michael Atkinson",
+    "role": "reported by",
+    "html": "stories/mad-scientist.html",
+    "tags": [
+      "Authority figure seeking",
+      "Conspiracy theory creation",
+      "Emotional contagion"
+    ]
+  },
+  {
+    "slug": "emilio",
+    "title": "Emilio",
+    "author": "Michael B. Morgan",
+    "role": "reported by",
+    "html": "stories/emilio.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "duke-benny",
+    "title": "Duke Benny",
+    "author": "Mike Duffy",
+    "role": "reported by",
+    "html": "stories/duke-benny.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "weather-reports-theme",
+    "title": "Weather Reports Theme",
+    "author": "Minor Fossil",
+    "role": "reported by",
+    "html": "stories/weather-reports-theme.html",
+    "tags": [
+      "Storytelling as meaning-making",
+      "Hope projection patterns",
+      "Pattern seeking creation"
+    ]
+  },
+  {
+    "slug": "ygor",
+    "title": "yGOR",
+    "author": "miter",
+    "role": "reported by",
+    "html": "stories/ygor.html",
+    "tags": [
+      "Fear versus wonder hierarchies",
+      "Pattern seeking creation",
+      "Storytelling as meaning-making"
+    ]
+  },
+  {
+    "slug": "the-widower",
+    "title": "The Widower",
+    "author": "NIck Winney",
+    "role": "reported by",
+    "html": "stories/widower.html",
+    "tags": [
+      "Time perception distortion",
+      "Memory reconstruction",
+      "Mythology-building responses"
+    ]
+  },
+  {
+    "slug": "sora",
+    "title": "Sora",
+    "author": "Olivia McNeilis",
+    "role": "reported by",
+    "html": "stories/sora.html",
+    "tags": [
+      "Mythology-building responses",
+      "Humor as dread defense",
+      "Social proof validation"
+    ]
+  },
+  {
+    "slug": "george-ferris",
+    "title": "George Ferris",
+    "author": "S.L. Linton",
+    "role": "reported by",
+    "html": "stories/george-ferris.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "alex-houston",
+    "title": "Alex Houston",
+    "author": "S.M. Osborne",
+    "role": "reported by",
+    "html": "stories/alex-houston.html",
+    "tags": [
+      "Ritual creation",
+      "Authority figure seeking",
+      "Hope projection patterns"
+    ]
+  },
+  {
+    "slug": "elliott",
+    "title": "Elliott",
+    "author": "Sam Reid",
+    "role": "reported by",
+    "html": "stories/elliott.html",
+    "tags": [
+      "Fear performance",
+      "Isolation versus gathering",
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "walter",
+    "title": "Walter",
+    "author": "Sandolore Sykes",
+    "role": "reported by",
+    "html": "stories/walter.html",
+    "tags": [
+      "Weather anthropomorphization",
+      "Memory reconstruction",
+      "Pattern seeking creation"
+    ]
+  },
+  {
+    "slug": "john-bull",
+    "title": "John Bull",
+    "author": "Sean Thomas McDonnell",
+    "role": "reported by",
+    "html": "stories/john-bull.html",
+    "tags": [
+      "Mythology-building responses",
+      "Humor as dread defense",
+      "Individual versus collective response"
+    ]
+  },
+  {
+    "slug": "lightning-immaculate",
+    "title": "Lightning Immaculate",
+    "author": "Andy Futuro",
+    "role": "reported by",
+    "html": "stories/lightning-immaculate.html",
+    "tags": [
+      "Mythology-building responses"
+    ]
+  },
+  {
+    "slug": "the-shipbuilder",
+    "title": "The Shipbuilder",
+    "author": "Shane Bzdok",
+    "role": "reported by",
+    "html": "stories/shipbuilder.html",
+    "tags": [
+      "Individual versus collective response",
+      "Isolation versus gathering",
+      "Memory reconstruction"
+    ]
+  },
+  {
+    "slug": "winston-ford",
+    "title": "Winston Ford",
+    "author": "Spencer D.W.",
+    "role": "reported by",
+    "html": "stories/winston-ford.html",
+    "tags": [
+      "Time perception distortion",
+      "Uncertainty cognition studies",
+      "Assigning agency to randomness"
+    ]
+  },
+  {
+    "slug": "kaldi",
+    "title": "Kaldi",
+    "author": "Stephen Rozo",
+    "role": "reported by",
+    "html": "stories/kaldi.html",
+    "tags": [
+      "Future prediction attempts",
+      "Documentation obsession",
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "purge",
+    "title": "Purge",
+    "author": "Wildflower",
+    "role": "reported by",
+    "html": "stories/purge.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "dolores",
+    "title": "Dolores",
+    "author": "Will Boucher",
+    "role": "reported by",
+    "html": "stories/dolores.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "sybil",
+    "title": "Sybil",
+    "author": "Zani D",
+    "role": "reported by",
+    "html": "stories/sybill.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  },
+  {
+    "slug": "bird-mother",
+    "title": "Bird Mother",
+    "author": "Zivah Avraham",
+    "role": "reported by",
+    "html": "stories/bird-mother.html",
+    "tags": [
+      "Fear versus wonder hierarchies"
+    ]
+  }
+]

@@ -63,6 +63,47 @@
     @media (max-width:768px){
       .grid{grid-template-columns:1fr}
     }
+    /* ===== Mobile header overlap fix ===== */
+@media (max-width: 860px){
+  .header-section{
+    height: auto;                 /* stop forcing 96px */
+    margin-top: 60px;
+    padding: 0 20px;
+    display: flex;                /* stack titles */
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .main-title,
+  .weather-title{
+    position: static;             /* remove absolute positioning */
+    left: auto; top: auto;        /* neutralize old offsets */
+    font-size: 24px;              /* smaller on mobile */
+    line-height: 1.2;
+    text-align: center;
+    word-break: break-word;       /* safety for long strings */
+  }
+  .divider-line{
+    position: static;             /* let it flow beneath headers */
+    width: 100%;
+    height: 2px;
+    margin-top: 8px;
+  }
+
+  /* tighten the rest a touch so it breathes on phones */
+  .site-brief p{ font-size: 20px; line-height: 1.45; }
+  .page-wrap{ margin: 28px auto 72px; }
+  .title{ font-size: 28px; }
+  .subtitle{ font-size: 13px; }
+}
+
+@media (max-width: 480px){
+  .main-title,
+  .weather-title{ font-size: 20px; }
+  .site-brief p{ font-size: 18px; }
+  .title{ font-size: 24px; }
+}
+
   </style>
 </head>
 <body>

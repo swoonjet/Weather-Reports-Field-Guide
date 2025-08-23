@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Researchers — World C6H-ɛ Field Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --base-color:#EDE9DC;
+      --bright-field:#FCFBF8;
+      --dieter-gray:#504C4C;
+      --text-color:#000;
+      --font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Roboto,sans-serif;
+      --story-font:'Crimson Pro',serif;
+    }
+    body{font-family:var(--font-family); background:var(--base-color); color:var(--text-color); min-height:100vh}
+
+    .container{width:100%;max-width:1440px;margin:0 auto;position:relative}
+    .header-section{width:100%;max-width:1152px;height:96px;margin:136px auto 0;position:relative;padding:0 20px}
+    .main-title{position:absolute;left:0;top:13px;font-size:36px;font-weight:700}
+    .weather-title{position:absolute;right:0;top:14px;font-size:36px;font-weight:700}
+    .divider-line{position:absolute;left:0;right:0;top:72px;height:2px;background:var(--text-color)}
+
+    /* Site brief under divider, same width as stories */
+    .site-brief-wrap{width:100vw;max-width:none;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);background:var(--bright-field); border-top:1px solid rgba(80,76,76,.12); border-bottom:1px solid rgba(80,76,76,.12)}
+    .site-brief{max-width:980px;margin:0 auto;padding:28px 20px}
+    .site-brief p{font-family:var(--story-font); font-size:22px; line-height:1.45; color:var(--dieter-gray)}
+
+    /* Form shell matches story width */
+    .page-wrap{max-width:980px;margin:40px auto 80px;padding:0 20px}
+    .back{display:inline-flex;align-items:center;gap:6px;border:0;background:none;font-size:14px;font-weight:600;margin-bottom:28px;cursor:pointer;text-decoration:none;color:var(--text-color)}
+    .back::before{content:"←"}
+    .title{font-size:32px;font-weight:700;margin-bottom:8px}
+    .subtitle{font-size:14px;color:var(--dieter-gray);font-style:italic;margin-bottom:28px}
+
+    form{background:var(--bright-field); border:1px solid rgba(80,76,76,.25); border-radius:12px; padding:20px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .full{grid-column:1/-1}
+    label{display:block;font-size:12px;font-weight:700;color:var(--dieter-gray);margin:8px 0 6px}
+    input[type="text"],input[type="email"],select,textarea{
+      width:100%; padding:12px 14px; border:1px solid rgba(80,76,76,.35); border-radius:8px; background:#fff; font-size:14px
+    }
+    textarea{min-height:160px; resize:vertical; font-family:var(--story-font); font-size:18px; line-height:1.5}
+    .hint{font-size:12px;color:var(--dieter-gray);margin-top:6px}
+    .row{display:flex;gap:12px;align-items:center}
+    .submit-bar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:18px}
+    .btn{
+      appearance:none;border:1px solid var(--dieter-gray); background:var(--bright-field);
+      padding:10px 16px;border-radius:20px; font-weight:600; cursor:pointer; transition:transform .06s ease
+    }
+    .btn:hover{transform:translateY(-1px)}
+    .btn.primary{background:var(--text-color);color:var(--base-color); border-color:var(--text-color)}
+    .req{color:#b00020; margin-left:4px; font-weight:700}
+    .chip{display:inline-flex;align-items:center;gap:8px;background:var(--bright-field);border:1px solid var(--dieter-gray);border-radius:16px;padding:6px 12px;font-size:12px}
+
+    /* status message */
+    .status{margin-top:10px;font-size:14px;color:var(--dieter-gray)}
+    .status.ok{color:#225b2a}
+    .status.err{color:#8b1a1a}
+
+    @media (max-width:768px){
+      .grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header-section">
+      <h1 class="main-title">World C6H-ɛ Field Guide</h1>
+      <h2 class="weather-title">Weather Reports</h2>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- Blurb (same width as stories) -->
+    <div class="site-brief-wrap">
+      <div class="site-brief">
+        <p>
+          <strong>Researchers required for Field Studies.</strong>
+          Assembling a small team to study behavior through story. Your narratives are our data, revealing how we navigate fear and wonder, where patterns appear, and why contradictions persist. Your observations—field notes—will help build a living catalog for further study.
+          By completing the form you are acknowledging your serious interest and understand the importance of the work we will do together.
+        </p>
+      </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="page-wrap">
+      <a class="back" href="index.html">Back to Field Guide</a>
+
+      <h1 class="title">Researcher Application</h1>
+      <p class="subtitle">Tell us who you are and how you observe.</p>
+
+      <form id="applyForm">
+        <div class="grid">
+          <div>
+            <label>Full name <span class="req">*</span></label>
+            <input type="text" name="name" required placeholder="Your name">
+          </div>
+          <div>
+            <label>Email <span class="req">*</span></label>
+            <input type="email" name="email" required placeholder="you@example.com">
+          </div>
+
+          <div>
+            <label>Affiliation / Role</label>
+            <input type="text" name="affiliation" placeholder="Independent, University, Lab, etc.">
+          </div>
+          <div>
+            <label>Location</label>
+            <input type="text" name="location" placeholder="City, Region">
+          </div>
+
+          <div class="full">
+            <label>Primary research interest</label>
+            <select name="interest">
+              <option value="">— Choose one (optional) —</option>
+              <option>Sense-making behavior analysis</option>
+              <option>Narrative creation patterns</option>
+              <option>Cultural interpretation variables</option>
+              <option>Uncertainty cognition studies</option>
+              <option>Mythology-building responses</option>
+              <option>Contradiction and paradox</option>
+              <option>Pattern seeking creation</option>
+              <option>Anthropomorphization tendency</option>
+              <option>Storytelling as meaning-making</option>
+              <option>Individual versus collective response</option>
+              <option>Assigning agency to randomness</option>
+              <option>Fear versus wonder hierarchies</option>
+              <option>False expertise claiming</option>
+              <option>Humor as dread defense</option>
+              <option>Isolation versus gathering</option>
+              <option>Compulsive naming categorizing</option>
+              <option>Retrofitting familiar frameworks</option>
+              <option>Conspiracy theory creation</option>
+              <option>Hope projection patterns</option>
+              <option>Memory reconstruction</option>
+              <option>Collective storytelling</option>
+              <option>Authority figure seeking</option>
+              <option>Ritual creation</option>
+              <option>Social proof validation</option>
+              <option>Future prediction attempts</option>
+              <option>Emotional contagion</option>
+              <option>Documentation obsession</option>
+              <option>False memory creation</option>
+              <option>Weather anthropomorphization</option>
+              <option>Time perception distortion</option>
+              <option>Scapegoat selection</option>
+              <option>Prediction obsession</option>
+              <option>Authority figure creation</option>
+              <option>Fear performance</option>
+              <option>Wonder Guilt</option>
+            </select>
+            <p class="hint">This aligns with your Behavioral Matrix filters.</p>
+          </div>
+
+          <div class="full">
+            <label>Example writing prompt <span class="req">*</span></label>
+            <textarea name="prompt" required placeholder="Explore a behavior that says one thing but does another."></textarea>
+            <p class="hint">A short vignette or observation (150–400 words is perfect).</p>
+          </div>
+
+          <div class="full">
+            <label>Availability window</label>
+            <div class="row">
+              <input type="text" name="availability" placeholder="e.g., Weeknights after 7pm PT">
+            </div>
+          </div>
+
+          <div class="full">
+            <label class="row" style="gap:10px">
+              <input type="checkbox" name="consent" required>
+              <span>I acknowledge the role of researcher and consent to being contacted. <span class="req">*</span></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="submit-bar">
+          <span class="chip">Application v1 • static submit</span>
+          <div class="row">
+            <button type="submit" class="btn primary">Submit</button>
+          </div>
+        </div>
+        <div id="submitStatus" class="status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // ============================
+    // SET ONE OF THE TWO BELOW
+    // ============================
+
+    // 1) Recommended: Formspree endpoint (works on GitHub Pages)
+    //    Make a form at https://formspree.io, copy the endpoint like:
+    //    "https://formspree.io/f/abcdxyz"
+    const FORMSPREE_ENDPOINT = ""; // <-- put your Formspree URL here
+
+    // 2) Fallback: mailto (opens user's email client)
+    const DEST_EMAIL = "you@example.com"; // <-- set only if not using Formspree
+
+    const form = document.getElementById('applyForm');
+    const statusEl = document.getElementById('submitStatus');
+
+    function setStatus(msg, ok=false){
+      statusEl.textContent = msg;
+      statusEl.className = 'status ' + (ok ? 'ok' : 'err');
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const fd = new FormData(form);
+      if (!fd.get('name') || !fd.get('email') || !fd.get('prompt') || !fd.get('consent')){
+        setStatus("Please complete required fields."); return;
+      }
+
+      const payload = {
+        name: fd.get('name') || '',
+        email: fd.get('email') || '',
+        affiliation: fd.get('affiliation') || '',
+        location: fd.get('location') || '',
+        interest: fd.get('interest') || '',
+        availability: fd.get('availability') || '',
+        prompt: fd.get('prompt') || '',
+        _meta_timestamp: new Date().toISOString(),
+        _meta_page: location.href
+      };
+
+      // Use Formspree if configured
+      if (FORMSPREE_ENDPOINT && FORMSPREE_ENDPOINT.startsWith('https://formspree.io')) {
+        try{
+          setStatus("Submitting…");
+          const res = await fetch(FORMSPREE_ENDPOINT, {
+            method: "POST",
+            headers: { "Accept": "application/json", "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+          });
+          if (res.ok){
+            form.reset();
+            setStatus("Thank you! Your application has been received.", true);
+          } else {
+            const data = await res.json().catch(()=>({}));
+            setStatus(data.error || "Submission failed. Try again, or use the email fallback below.");
+          }
+        } catch(err){
+          setStatus("Network error. Try again, or use the email fallback below.");
+        }
+        return;
+      }
+
+      // Fallback to mailto if no Formspree configured
+      if (DEST_EMAIL && DEST_EMAIL.includes('@')) {
+        const subject = `Field Guide Researcher Application — ${payload.name}`;
+        const lines = [
+          `Name: ${payload.name}`,
+          `Email: ${payload.email}`,
+          `Affiliation/Role: ${payload.affiliation}`,
+          `Location: ${payload.location}`,
+          `Primary interest: ${payload.interest}`,
+          `Availability: ${payload.availability}`,
+          `---`,
+          `Writing Prompt:`,
+          `${payload.prompt}`,
+          `---`,
+          `Timestamp: ${payload._meta_timestamp}`,
+          `Page: ${payload._meta_page}`
+        ];
+        const body = encodeURIComponent(lines.join('\n'));
+        const href = `mailto:${encodeURIComponent(DEST_EMAIL)}?subject=${encodeURIComponent(subject)}&body=${body}`;
+        window.location.href = href;
+        setStatus("Opening your email client… If nothing happens, confirm your mail app is set up.");
+        return;
+      }
+
+      // If neither is set:
+      setStatus("No submission endpoint configured. Please set FORMSPREE_ENDPOINT or DEST_EMAIL.");
+    });
+  </script>
+</body>
+</html>

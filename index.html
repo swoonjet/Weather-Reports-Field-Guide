@@ -319,6 +319,34 @@
   transition-duration: var(--swarm-return);
   transition-timing-function: cubic-bezier(.3,.8,.2,1.15);
 }
+    /* === Recruit Button === */
+.fg-recruit-button{
+  position:fixed;
+  right:20px; bottom:24px;
+  width:44px; height:44px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  background:var(--bright-field);
+  color:var(--text-color);
+  border:1px solid rgba(80,76,76,.35);
+  box-shadow:0 4px 12px rgba(80,76,76,.15);
+  text-decoration:none;
+  font-weight:700; font-size:22px; line-height:1;
+  transition:transform .12s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+  z-index:9000; /* below your lightbox (9999) so it won’t float above it */
+}
+.fg-recruit-button:hover{
+  transform:translateY(-1px);
+  box-shadow:0 8px 20px rgba(80,76,76,.18);
+  border-color:rgba(80,76,76,.5);
+}
+.fg-recruit-button:focus-visible{
+  outline:2px solid var(--text-color);
+  outline-offset:2px;
+}
+@media (max-width:480px){
+  .fg-recruit-button{ right:14px; bottom:16px; }
+}
+
 
   </style>
 </head>
@@ -847,6 +875,9 @@
   }
 })();
 </script>
+  <a class="fg-recruit-button" href="researchers.html"
+   aria-label="Become a researcher" title="Become a researcher">?</a>
+
 
 </body>
 </html>

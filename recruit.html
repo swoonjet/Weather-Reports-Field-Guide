@@ -278,5 +278,19 @@
       setStatus("No submission endpoint configured. Please set FORMSPREE_ENDPOINT or DEST_EMAIL.");
     });
   </script>
+  <script>
+(function(){
+  const btn = document.querySelector('.fg-recruit-button');
+  if(!btn) return;
+  if(location.pathname.endsWith('/researchers.html') || location.pathname.endsWith('researchers.html')){
+    btn.href = 'index.html';
+    btn.textContent = '↩';
+    btn.title = 'Back to Field Guide';
+    btn.setAttribute('aria-label','Back to Field Guide');
+  }
+})();
+</script>
+  <a class="fg-recruit-button" href="index.html"
+   aria-label="Back to Field Guide" title="Back to Field Guide">↩</a>
 </body>
 </html>

@@ -103,6 +103,46 @@
   .site-brief p{ font-size: 18px; }
   .title{ font-size: 24px; }
 }
+    /* Floating mini buttons (Question + Back) */
+:root{
+  --fab-size: 28px;      /* small on mobile */
+  --fab-font: 14px;
+}
+@media (min-width: 640px){
+  :root{ --fab-size: 36px; --fab-font: 16px; }
+}
+.fg-fab{
+  position: fixed;
+  right: clamp(12px, 2vw, 24px);
+  bottom: calc(clamp(12px, 2vw, 24px) + env(safe-area-inset-bottom, 0px));
+  width: var(--fab-size);
+  height: var(--fab-size);
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font: 700 var(--fab-font)/1 var(--font-family, -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif);
+  text-decoration: none;
+  z-index: 10000;
+  transition: transform .12s ease, box-shadow .2s ease, opacity .2s ease;
+  user-select: none;
+}
+
+/* Subtle hover (no bounce/shadow on the big matrix button) */
+.fg-fab:hover{ transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0,0,0,.12); }
+.fg-fab:active{ transform: translateY(0); box-shadow: none; }
+
+/* Theme variants */
+.fg-fab--recruit{               /* "?" button */
+  background: var(--bright-field, #FCFBF8);
+  color: var(--text-color, #000);
+  border: 1px solid var(--dieter-gray, #504C4C);
+}
+.fg-fab--back{                  /* back arrow button */
+  background: var(--text-color, #000);
+  color: var(--base-color, #EDE9DC);
+  border: 1px solid var(--text-color, #000);
+}
+
 
   </style>
 </head>
@@ -331,7 +371,9 @@
   }
 })();
 </script>
-  <a class="fg-recruit-button" href="index.html"
-   aria-label="Back to Field Guide" title="Back to Field Guide">↩</a>
+<a class="fg-fab fg-fab--back"
+   href="index.html"
+   aria-label="Back to Field Guide"
+   title="Back to Field Guide">↩</a>
 </body>
 </html>
